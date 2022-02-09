@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    background: rgb(0, 0, 0);
+}
+/* ================================ */
+h1{
+    color: blueviolet;
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    color: blueviolet;
+    margin: 40px 0 0 40px;
+}
+input{
+    background: white;
+    padding: 5px;
+    border-radius:4px;
+    font-size: 18px;
+    margin:0 20px 60px 40px ;
+}
+button{
+    border: 2px solid blueviolet;
+    color:blueviolet ;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+table{
+    border-spacing: 10px;
+    margin: 30px;
+}
+th{
+    width: 200px;
+    color: blueviolet;
+    border:2px solid blueviolet ;
+    padding: 5px;
+}
+td{
+    background: white;
+    color: blueviolet;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}

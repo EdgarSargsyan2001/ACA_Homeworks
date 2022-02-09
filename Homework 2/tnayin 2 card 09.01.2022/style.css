@@ -1,0 +1,229 @@
+
+.content1{
+    width: 400px;
+    height: 480px;
+    margin:0 auto;
+    margin-top: 150px;
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow:0 25px 50px 0 rgb(0 0 0 / 46%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.kk{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+#inp1,#inp2{
+    width: 400px;
+    margin:0px 20px;
+    padding:8px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 89, 255, 0.315);
+    box-shadow:0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    
+}
+#inp1{
+    margin-bottom:22px;
+}
+.sel1,.sel2{
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#inp3{
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 5px;
+    width:95px;
+    height:32px;
+    border: 2px solid rgba(0, 89, 255, 0.315);
+    box-shadow:0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+button{
+    width: 90%;
+    background:rgb(0, 38, 255);
+    padding: 8px;
+    font-size: 24px;
+    border-radius: 8px;
+    color: white;
+}
+.styleP{
+     margin:0 25px ;
+    font-size: 15px;
+}
+
+.content2,.content3{
+    box-shadow:0 25px 50px 0 rgb(0 0 0 / 46%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    background-image: url('https://img.freepik.com/free-vector/abstract-banner-background-with-red-shapes_1361-3348.jpg?size=626&ext=jpg');
+    background-position: center;
+    background-size: cover;
+    width: 300px ;
+    height: 200px;
+    border-radius: 8px;
+    transition: 0.3s  ;
+}
+
+.content3 > p{
+    text-align: end;
+    color: white;
+    font-size: 18px;
+    margin: 0 13px;
+}
+.black{
+    
+    width:300px;
+    height: 40px;
+    background: black;
+    margin:20px 0; 
+
+}
+.text{
+    width:275px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0 10px;
+    padding-right:5px ;
+    background: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center ;
+}
+
+/* ==================  /* ================== */
+.content3{
+    display: none;
+    position: absolute;
+    top:0;
+}
+.anim{
+    transform: rotateY(70deg);
+    opacity:0 ;
+}
+.anim1{
+    transform: rotateY(-83deg);
+    opacity:0 ;
+}
+.anim2{
+    transform: rotateY(0);
+    opacity:1 ;
+}
+.parentContent{
+    perspective: 500px;
+    position: absolute;
+    top:-100px;
+}
+/* ================== */
+.content2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.visa{
+    background: url('https://i.ibb.co/7RvBmxD/visa.jpg');
+    background-size: cover;
+    width: 67px;
+    height: 32px;
+    margin: 0 0 0 217px;
+}
+.chip{
+    background: url('https://i.ibb.co/W68HfC0/image.png');
+    background-size: cover;
+    width: 56px;
+    height: 50px;
+    margin: -9px 0px 0 -200px;
+}
+
+.number{
+    width: 80%;
+    height: 35px;
+    margin: 0px 40px 0 20px;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid aqua;
+}
+.number>span{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 6px 5px 0px 7px;
+}
+
+.name{
+    width: 186px;
+    height: 38px;
+    margin: 0 10px 10px 10px;
+    border-radius: 5px;
+}
+.name>p{
+    font-size: 11px;
+    margin: 4px 4px 0 8px;
+    color: rgb(206, 193, 193);
+    
+}
+.name>span{
+    color: white;
+    margin-left: 8px;
+    font-size: 14px;
+    text-transform:uppercase;
+}
+
+.data{
+    width: 78px;
+    height: 39px;
+    margin: 0 10px 10px 0;
+    border-radius: 5px;
+}
+.data>p{
+    font-size: 11px;
+    margin: 4px 4px 0 8px;
+    color: rgb(206, 193, 193);
+}
+.border{
+    border: 1px solid rgb(206, 193, 193);;
+    transition: 0.5s ;
+
+}
+.notborder{
+    border: 0px solid  ;
+    transition: 0.2s;
+}
+.DN{
+    display: flex;
+    align-items: flex-end;
+}
+.data>.Month{
+    color: white;
+    margin-left: 8px;
+}
+.data>.Year{
+    color: white;
+}
+.animation{
+    animation:coloranimation 0.5s;
+}
+@keyframes coloranimation{
+    from{
+        font-size:17px ;
+        opacity: 0.5;
+        color: blanchedalmond;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.ff{
+    animation:coloranimation 0.5s;
+}

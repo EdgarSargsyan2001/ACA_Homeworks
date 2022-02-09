@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> lesson</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="content1">
+    
+    <div class="kk">
+        <p class="styleP">Card Number</p>
+        <input type="text" name="Number" id="inp1" maxlength="16">
+        <p class="styleP">Card Name</p>
+        <input type="text" name="Name" id="inp2" maxlength="20">
+    </div>
+    <div class="kk1">
+        <p class="styleP">Expiration Date</p>  
+        <select class="sel1 ">
+            <option value="MM" >Month </option>
+            <option> 01</option>
+            <option> 02</option>
+            <option> 03</option>
+            <option> 04</option>
+            <option> 05</option>
+            <option> 06</option>
+            <option> 07</option>
+            <option> 08</option>
+            <option> 09</option>
+            <option> 10</option>
+            <option> 11</option>
+            <option> 12</option>
+        </select>
+        <select class="sel2 ">
+            <option value="YY">Year</option>
+            <option> 2019</option>
+            <option> 2020</option>
+            <option> 2021</option>
+            <option> 2022</option>
+            <option> 2023</option>
+            <option> 2024</option>
+            <option> 2025</option>
+            <option> 2026</option>
+            <option> 2027</option>
+            <option> 2028</option>
+            <option> 2029</option>
+            <option> 2030</option>
+        </select>
+        
+        <input type="text" name="CVV" placeholder="CVV" id="inp3" maxlength="3">
+    </div>
+        <button >submit</button>
+
+    <div class="parentContent">
+
+        <div class="content2">
+            <div class="visa"><div class="chip"></div></div>
+            
+
+            <div class="number notborder" >
+                <span class="numbertext1">####</span>
+                <span class="numbertext2">####</span>
+                <span class="numbertext3">####</span>
+                <span class="numbertext4">####</span>
+                
+            </div>
+
+            <div class="DN">
+                <div class="name notborder">
+                    <p >Card Holder</p>
+                    <span class="nametext">AD SOYAD</span>
+                </div>
+                <div class="data notborder">
+                    <p>Expires</p>
+                    <span class="Month">MM</span>
+                    <span style="font-size: 18px; color: white;"><b>/</b></span>
+                    <span class="Year">YY</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content3 anim1"  >
+            
+            <div class="black"></div>
+            <p>CVV</p>
+            <div class="text"></div>
+
+        </div>
+
+        
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+ 
+<script src="main.js"></script>
+</body>
+</html>
